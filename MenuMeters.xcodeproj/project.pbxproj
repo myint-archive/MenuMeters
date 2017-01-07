@@ -1373,7 +1373,7 @@
 				GCC_PREFIX_HEADER = MenuMeters.pch;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = PrefPane/Info.plist;
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/PreferencePanes";
+				INSTALL_PATH = "$(TARGET_BUILD_DIR)/PreferencePanes";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DELCAPITAN";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yujitach.MenuMeters;
